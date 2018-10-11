@@ -1,0 +1,31 @@
+{
+    "name": "patr1k/phenum",
+    "type": "library",
+    "description": "PHP Enumerator",
+    "keywords": ["enum","trait"],
+    "homepage": "http://github.com/patr1k/phenum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phenum Contributors",
+            "homepage": "https://github.com/patr1k/phenum/graphs/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Patr1k\\Phenum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Patr1k\\Phenum\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
+        "squizlabs/php_codesniffer": "1.*"
+    }
+}
